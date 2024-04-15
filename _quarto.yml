@@ -1,0 +1,27 @@
+project:
+  type: book
+
+book:
+  title: "From Nature to Fitness: A Scooping Review on Physical Activity and Green Spaces"
+  author: "Fela Berecochea"
+  date: "4/12/2024"
+  chapters:
+    - index.qmd
+    - Summary.qmd
+    - Introduction.qmd
+    - Materials and methods.qmd
+    - Results.qmd
+    - Discussion.qmd
+    - Conclusion.qmd
+    - References.qmd
+
+format:
+  html:
+    theme: flatly
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+
+csl: 'apa.csl'
+bibliography: references.bib
